@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\zadatak1">
+      <UniqueIdentifier>{e8baee9d-ab67-4702-a0b6-717dca6666bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zadatak2">
+      <UniqueIdentifier>{eeb42eed-66fb-4dcf-8587-7233e5ede80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zadatak3">
+      <UniqueIdentifier>{3e88a2a6-4add-49c8-ad7c-258d6a6a9cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zadatak4">
+      <UniqueIdentifier>{008a2527-4136-4268-b7f2-7ae03c8ac39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zadatak5">
+      <UniqueIdentifier>{2dfee229-7195-40b2-8b2e-f5b7e870d490}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_PomocneFunkcije.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Header Files\zadatak1</Filter>
+    </ClInclude>
+    <ClInclude Include="Glumac.h">
+      <Filter>Header Files\zadatak2</Filter>
+    </ClInclude>
+    <ClInclude Include="Epozida.h">
+      <Filter>Header Files\zadatak3</Filter>
+    </ClInclude>
+    <ClInclude Include="Uloga.h">
+      <Filter>Header Files\zadatak4</Filter>
+    </ClInclude>
+    <ClInclude Include="Serija.h">
+      <Filter>Header Files\zadatak5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
