@@ -90,9 +90,9 @@ public:
     //Z5.5
     Epizoda* GetNajboljeOcijenjenaEpizoda() {
         Epizoda* temp = _epizode;
-        for (int z = 0; z < _trenutnoEpizoda; z++)
+        for (int z = 1; z < _trenutnoEpizoda; z++)
         {
-            if (_epizode[z].GetProsjecnaOcjena() > temp[z].GetProsjecnaOcjena())
+            if (_epizode[z].GetProsjecnaOcjena() > temp->GetProsjecnaOcjena())
                 temp = &_epizode[z];
         }
         return temp;
